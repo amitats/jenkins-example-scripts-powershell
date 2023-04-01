@@ -5,8 +5,9 @@ pipeline {
   stages {
     stage('version') {
       steps {
-        sh 'pwsh --version'
+        bat 'powershell "hostname"'
       }
     }
   }
 }
+
