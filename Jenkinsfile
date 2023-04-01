@@ -6,7 +6,7 @@ pipeline {
   stages {
     stage('version') {
       steps {
-        bat 'powershell "hello.ps1"'
+        bat 'powershell "'\hello.ps1"'
       }
     }
   }
