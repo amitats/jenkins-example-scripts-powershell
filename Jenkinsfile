@@ -1,3 +1,4 @@
+
 pipeline {
    agent {
      label 'windows'
@@ -5,9 +6,10 @@ pipeline {
   stages {
     stage('version') {
       steps {
-        bat 'powershell "hostname"'
+        bat 'powershell "hello.ps1"'
       }
     }
   }
 }
+
 
